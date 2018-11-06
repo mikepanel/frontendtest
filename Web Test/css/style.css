@@ -1,0 +1,343 @@
+/* #######################
+CSS for Navigation
+####################### */
+.header {
+  background-image: url('assets/headerimage.jpg');
+  width: 100%;
+  height: 600px;
+  background-position:center center;
+  background-size: cover;
+  position: relative;
+
+}
+.navbar{
+    z-index: 5;
+    position: absolute;
+    background-color: rgba(252,252, 252, 0.9);
+    width: 100%;
+    margin: 0 auto;
+}
+.navbar ul{
+    list-style-type: none;
+    padding: 0;
+    position: relative;
+    text-align: center;
+}
+
+.navbar li img{
+  width: 100px;
+  height: auto;
+}
+.navbar li {
+    display: inline-block;
+}
+.navbar li a {
+    display: block;
+    color: black;
+    padding: 6px 16px;
+    text-decoration: none;
+    justify-content: center;
+}
+.active {
+  /* needs to have curved edges */
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+/* #######################
+CSS for Slider
+####################### */
+
+
+
+/* #######################
+CSS for Search Bar
+####################### */
+.form{
+  background-color: rgba(0,0,0,0.5);
+  position: absolute;
+  bottom: 70px;
+  left: 50%;
+  margin-left: -480px !important;
+
+}
+.column {
+    float: left;
+    width: 50%;
+    color: white;
+}
+.column-right {
+  text-align: right;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.more_search_options:after {
+    content: '\221F';
+    transform: rotate(-45deg);
+    font-weight: 800;
+    float: left;
+    padding-right: 10px;
+    margin-top: -5px;
+}
+.row1{
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+.row2 {
+  padding-bottom: 30px;
+}
+.row2 button{
+  background-color: rgba(0, 0, 0, 0.1);
+  color: white;
+  border: 1px solid white;
+  padding: 5px;
+
+}
+/* .row1 select{
+  border-radius: 0px;
+  border: 1px solid white;
+  padding: 5px;
+} */
+.column-right button{
+  background-color: rgba(0, 0, 0, 0.1);
+  color: white;
+  border: 1px solid white;
+  padding: 5px;
+
+}
+.column-right input{
+  background-color: rgba(0, 0, 0, 0.1);
+  color: white;
+  border: 2px solid white;
+  padding: 5px;
+
+
+}
+.buy-rent{
+  width:10%;
+}
+.property-type {
+  width: 29.5%;
+}
+.area-choice {
+  width: 60%;
+}
+/* #######################
+CSS for Property Nerds
+####################### */
+
+.breadcrumbs {
+  display: inline-block;
+  padding-top: 50px;
+}
+.breadcrumbs a:link {
+  color: grey;
+  text-decoration: none;
+}
+.icons{
+  font-size: 30px;
+  color: lightgrey;
+  border: 1px solid lightgrey;
+  padding: 10px;
+  margin-left: 10px;
+}
+.icon-placement {
+  margin-top: 50px;
+  display: inline-block;
+  float: right;
+}
+.prop-nerds p{
+  color: grey;
+}
+.more-button {
+  float: right;
+  font-weight: bolder;
+  border: 1.5px solid black;
+  border-radius: 5px;
+  width: 80px;
+  padding: 5px;
+  box-sizing: border-box;
+
+}
+
+
+/* #######################
+CSS for Featured Properties
+####################### */
+
+.new-tag{
+  background-color: rgba(0,0,0,0.8);
+  width: 60px;
+  position: relative;
+  top: -329px;
+  left: 22px;
+  text-align: center;
+  color: white;
+
+}
+.featured-footer{
+  background-color: rgba(0,0,0,0.8);
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  margin-top: -59px;
+  color: white;
+}
+.featured-footer-left {
+  padding-left: 15px;
+}
+.featured-footer-right {
+  float: right;
+  padding-right: 15px;
+}
+
+.feature-img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  height: auto;
+  padding-top: 20px;
+}
+.image-link {
+  position: relative;
+  top: -150px;
+  left: 167px;
+  background: rgba(0, 0, 0, 0.72);
+  color: #fff;
+  padding: 10px;
+  visibility: hidden;
+  opacity: 0;
+  text-decoration: none;
+
+
+  /* transition effect. not necessary */
+  transition: opacity .2s, visibility .2s;
+}
+.featured:hover .image-link{
+  visibility: visible;
+  opacity: 1;
+}
+.featured {
+  border: 1px solid lightgrey;
+  margin-bottom: 20px;
+}
+.featured h3{
+  margin-bottom: 0;
+  padding-top: 10px;
+}
+.featured p{
+  color: grey;
+}
+.feature-text{
+  margin-left: 10%;
+}
+
+.form-class {
+  padding: 0 30px;
+}
+.featured-footer div{
+  display: inline-block;
+}
+
+.left{
+  margin-right: 30px !important;
+  margin-left: 0px !important;
+
+}
+.right {
+  margin-right: 0px !important;
+}
+
+
+
+/* #######################
+CSS for SVG images
+####################### */
+
+.parent {
+  position: relative;
+  top: 0;
+  left: 0;
+  padding-bottom: 60px;
+}
+.image1 {
+  position: relative;
+  top: 0;
+  left: 0;
+  padding-top: 30px;
+}
+.image2 {
+  position: absolute;
+  top: 80px;
+  left: 230px;
+  padding-top: 30px;
+}
+.imagetext{
+  text-align: center;
+  font-size: 17px;
+  position: absolute;
+  top: 240px;
+  left: 280px;
+  padding-top: 30px;
+}
+
+/* #######################
+CSS for Footer
+####################### */
+
+.footer {
+  width: 100%;
+  height: 300px;
+  background-color: lightgrey;
+}
+
+.footer a{
+  color: white;
+  text-decoration: none;
+}
+.footer ul{
+  list-style-type: none;
+  padding-top: 50px;
+}
+.footer li{
+  display: inline-block;
+  margin-left: 0;
+}
+.footer hr{
+  margin-bottom: -30px;
+  border-color: white;
+}
+.social-icons {
+  color: white;
+  border-radius: 5px;
+  border: 1px solid white;
+  box-sizing: border-box;
+  text-align: center;
+  padding: 5px;
+  width: 30px;
+  margin-left: 10px;
+  height: auto;
+  float: right;
+}
+.tradmark-text {
+  color: white;
+}
+.trademark-image {
+  width: 50px;
+  height: auto;
+  margin-top: -5px;
+  margin-left: -16px;
+}
+.lower-footer {
+  padding-top: 20px;
+}
+.lower-footer span {
+  color: white;
+  margin-left: -40px;
+  display: block;
+}

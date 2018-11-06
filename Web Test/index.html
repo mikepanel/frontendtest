@@ -1,0 +1,219 @@
+<!DOCTYPE HTML>
+
+<html>
+    <head>
+        <title></title>
+
+        <link  href="css/style.css" rel="stylesheet" type="text/css" media="all">
+        <link href="css/reset.css" rel="stylesheet" type="text/css" media="all" />
+        <link href="css/text.css" rel="stylesheet" type="text/css" media="all" />
+        <link href="css/960.css" rel="stylesheet" type="text/css" media="all" />
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body onload = "changeImage()">
+      <div class="gh">
+        <nav class="navbar">
+            <!-- active page must have a border around the link -->
+            <!-- navigation must go over the slider with approx 90% transparency -->
+            <div class="navigation">
+              <ul>
+                <li><a class="active" href="" >Home</a></li>
+                <li><a href="">Property Search</a></li>
+                <li><a href="">About us</a></li>
+                <li><img src="assets/logo.png" alt="logo"></li>
+                <li><a href="">Agent Search</a></li>
+                <li><a href="">Tools</a></li>
+                <li><a href="">Contact Us</a></li>
+              </ul>
+            </div>
+        </nav>
+        <div id = "headerimage" class="header" style="background-image: url('assets/headerimage.jpg');">
+
+          <!-- slider will go here, will be behind the navbar and the search bar using z index -->
+          <!-- <img src="assets/headerimage.jpg" alt=""> -->
+
+        <div class="container_12 form">
+          <!-- search bar/form will be here , and will appear above the slider image -->
+          <!-- first row -> needs 2 drop down options, 1 text option, with options.
+          second row -> 1 button left aligned , 1 text output, 2 more buttons right aligned -->
+          <!-- the form will also need to make use of icons -->
+
+          <form class="form-class" action="index.html" method="get">
+            <div class="row row1">
+              <select class="" name="">
+                <option value="buy-rent" selected>Rent</option>
+                <option value="">Buy</option>
+              </select>
+              <select class="property-type" name="">
+                <option value="" selected>Commercial Property</option>
+                <option value="">Residential Property</option>
+              </select>
+              <input class="area-choice" type="text" name="" value="Type Area or Suburb Name">
+            </div>
+
+            <div class="row row2">
+              <div class="column">
+                <button class="bot-row" type="button" name="button"># Web Ref Number Search</button>
+              </div>
+              <div class="column column-right">
+
+                  125 Properties
+                  <button class="more_search_options bot-row" type="button" name="button"> More Search Options</button>
+                  <input class="bot-row" type="submit" name="" value="SEARCH">
+
+              </div>
+            </div>
+          </form>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="container_12 prop-nerds">
+          <!-- property nerds section / must have share and print option (can use icons) -->
+          <!-- icons need to be grey and aligned to the top right of div -->
+          <span class="breadcrumbs">
+            You are here:
+            <a href="#">Property Nerds</a>
+            <a href="#">/Homepage</a>
+          </span>
+          <div class="icon-placement">
+            <i class="fa fa-print icons" aria-hidden="true"></i>
+            <i class="fa fa-share-alt icons" aria-hidden="true"></i>
+          </div>
+
+          <h1>PROPERTY NERDS</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+          <button class="more-button" type="button" name="button">More</button>
+
+      </div>
+      <div class="container_12">
+          <!-- Featured properties / left aligned -->
+          <h2>FEATURED PROPERTIES</h2>
+          <div class="grid_6 left">
+            <div class="featured">
+              <img class="feature-img" src="assets/property1.jpg" alt="">
+              <a class="image-link" href="#">View Gallery</a>
+              <div class="new-tag">
+                  NEW
+              </div>
+
+              <div class="featured-footer">
+                <div class="featured-footer-left">
+                  NEW, SOLE MANDATE
+                </div>
+                <div class="featured-footer-right">
+                  Web Ref PA9303
+                </div>
+              </div>
+              <h3 class="feature-text">R110 PER M<sup>2</sup></h3>
+              <p class="feature-text">200m<sup>2</sup> Office to let in Stellenbosch</p>
+            </div>
+
+            </div>
+
+          <div class="grid_6 right">
+            <div class="featured">
+              <img class="feature-img" src="assets/property2.jpg" alt="">
+              <a class="image-link" href="#">View Gallery</a>
+              <div class="new-tag">
+                  NEW
+              </div>
+              <div class="featured-footer">
+                <div class="featured-footer-left">
+                  NEW, SOLE MANDATE
+                </div>
+                <div class="featured-footer-right">
+                  Web Ref PA9303
+                </div>
+              </div>
+              <h3 class="feature-text">R110 PER M<sup>2</sup></h3>
+              <p class="feature-text">200m<sup>2</sup> Office to let in Stellenbosch</p>
+            </div>
+
+          </div>
+          <!-- Split into 2 each have a featured properties template -->
+          <!-- needs a border, image, 2 overlays on the image, titel and description -->
+      </div>
+      <div class="container_12 parent">
+          <!-- give us a call section -->
+          <img class="image1" src="assets/banner.svg" alt="">
+          <img class="image2" src="assets/Give us a Call !.svg" alt="">
+          <p class="imagetext">Our nerds are ever ready to assist you with all your<br> property needs.</p>
+
+      </div>
+      <div class="footer">
+          <!-- Footer -->
+          <div class="container_12">
+            <ul>
+              <li><a href="#">Home |</a></li>
+              <li><a href="#">On Show |</a></li>
+              <li><a href="#">Residential Homes For Sale|</a></li>
+              <li><a href="#">Residential Homes To Let |</a></li>
+              <li><a href="#">Vacant Land  |</a></li>
+              <li><a href="#">New Developments  |</a></li>
+              <li><a href="#">Calculators  |</a></li>
+              <li><a href="#">Area Profiles  |</a></li>
+              <li><a href="#">General Advice  |</a></li>
+              <li><a href="#">Company Profile  |</a></li>
+              <li><a href="#">Agent Search  |</a></li>
+              <li><a href="#">Contact Us  |</a></li>
+              <li><a href="#">Website Map  |</a></li>
+              <li><a href="#">Useful Links  |</a></li>
+              <li><a href="#">Privacy Policy  |</a></li>
+            </ul>
+            <hr>
+            <ul>
+              <li><a href="#">Residential For Sale [54]:</a></li>
+              <li><a href="#">Amanzimtoti [12] |</a></li>
+              <li><a href="#">Athlone Park [3] |</a></li>
+              <li><a href="#">Doonside [6] |</a></li>
+              <li><a href="#">Warner Beach [11] |</a></li>
+              <li><a href="#">St Winifreds [4] |</a></li>
+              <li><a href="#">Residential To Let [54]:</a></li>
+              <li><a href="#">Amanzimtoti [12] |</a></li>
+              <li><a href="#">Athlone Park [3] |</a></li>
+              <li><a href="#">Doonside [6] |</a></li>
+              <li><a href="#">Warner Beach [11] |</a></li>
+              <li><a href="#">St Winifreds [4] |</a></li>
+
+            </ul>
+            <!-- create a row with 2 columns, align trademark left and social tags right -->
+            <div class="lower-footer">
+
+
+                <div class="grid_1">
+                  <img class="trademark-image" src="assets/Prop_Data_Logo_Transparent_Background.png" alt="">
+                </div>
+                <div class="grid_5">
+                    <span>
+                      Website Powered by Prop Data
+                   </span>
+                   <span>
+                     Copyright &#169; 2017 Proerty Nerds
+                   </span>
+                </div>
+
+
+
+                <div class="grid_6">
+                  <i class="fa fa-youtube social-icons"></i>
+                  <i class="fab fa-google-plus-g social-icons"></i>
+                  <i class="fab fa-twitter social-icons"></i>
+                  <i class="fa fa-facebook social-icons"></i>
+                </div>
+
+
+
+
+            </div>
+
+          </div>
+
+      </div>
+      <script type="text/javascript" src="script.js">
+
+      </script>
+    </body>
+</html>
